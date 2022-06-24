@@ -1,0 +1,13 @@
+@import '../base/variables';
+
+.bg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: $dark;
+  background-image: url(../../public/img/lineOne.svg);
+  background-repeat: no-repeat;
+  h1 {
+    text-align: center;
+  }
+}

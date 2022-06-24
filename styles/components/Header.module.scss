@@ -1,0 +1,29 @@
+@import '../base/variables';
+
+.header {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  width:  auto;
+  height: 9rem;
+  margin: 1.4rem;
+  padding: 1rem 2rem;
+  background-color: $dark;
+  box-shadow: 1rem 1rem 3rem $black, 
+    -1rem -1rem 3rem rgba(126, 126, 126, 0.21);
+  border-radius: 2rem;
+  // z-index: 5;
+  @media (min-width: 760px) {
+    padding: 2rem 4rem;
+  }
+  @media (min-width: 990px) {
+    padding: 3rem 4rem;
+  }
+}
+/*
+    el crecimiento exponencial como persona
+    el burnout???
+    Libros:
+    Atomic habits
+    Roba como un artista
+ */

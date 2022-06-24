@@ -1,0 +1,15 @@
+@import '../base/variables';
+.logo {
+  display: flex;
+  // margin: 1rem 4rem;
+}
+
+.text_logo {
+  font-size: 3rem;
+  margin-left: 1rem;
+  text-shadow: -.2rem -.2rem .5rem $gray-dark,
+  .5rem .5rem .5rem $black;
+}
+/* el sindrome del impostor 
+  * Es un fenomeno psicologico en el cual la persona no se cree capaz 
+*/

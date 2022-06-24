@@ -1,0 +1,26 @@
+:root {
+  --primary: #15B0D4;
+  --second: #547E88;
+  --gray: #DEDEDE;
+  --dark: #111010;
+  --font: 'Aldrich', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  /*que hacen estas propiedades*/
+}
+
+body {
+  font-family: 'Aldrich', sans-serif;
+  font-size: 2.3rem;
+  background-color: var(--dark);
+  color: var(--gray);
+}
