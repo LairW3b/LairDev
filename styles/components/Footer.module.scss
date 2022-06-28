@@ -1,6 +1,15 @@
 @import '../base/variables';
 
 .footer_content {
-  position: fixed;
-  bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  padding: 2rem;
+
+  .footer_icon {
+    color: $dark;
+    width: 8rem;
+    filter: drop-shadow(-.2rem -.2rem .2rem $primary) 
+            drop-shadow(.3rem .3rem .3rem #000000);
+  }
 }

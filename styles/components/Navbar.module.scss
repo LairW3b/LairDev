@@ -33,7 +33,7 @@
 
 .links.active{
   display: block;
-  top: 28%;
+  top: 22%;
   left: -12rem;
   @media (min-width: 650px){
     left: -40rem;
@@ -54,7 +54,7 @@
   border-bottom: 4px solid $primary;
   position: absolute;
   top: 0;
-  margin-top: 13rem;
+  margin-top: 8.5rem;
   left: -100rem;
   width: 72%;
   height: 60%;
@@ -63,7 +63,7 @@
 
   &.active {
     border-radius: 0 0 60% 0;
-    top: 2rem;
+    top: 2.5rem;
     left: 0;
     width: 70%;
     height: 50%;
@@ -73,8 +73,5 @@
     @media (min-width: 850px) {
       width: 32%;
     }
-   /*  @media (min-width: 1110px) {
-      // width: 22%;
-    } */
   }
 }

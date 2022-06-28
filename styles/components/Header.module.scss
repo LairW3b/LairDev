@@ -9,9 +9,9 @@
   margin: 1.4rem;
   padding: 1rem 2rem;
   background-color: $dark;
-  box-shadow: 1rem 1rem 3rem $black, 
-    -1rem -1rem 3rem rgba(126, 126, 126, 0.21);
-  border-radius: 2rem;
+  box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.847), 
+    -1rem -1rem 2rem rgba(126, 126, 126, 0.21);
+  border-radius: 5rem;
   // z-index: 5;
   @media (min-width: 760px) {
     padding: 2rem 4rem;
