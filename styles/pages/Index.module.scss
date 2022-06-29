@@ -1,14 +1,19 @@
 @import '../base/variables';
 
-.bg{
+.index_content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: $dark;
-  background-image: url(../../public/img/lineOne.svg);
+  // background-color: $dark;
+  // background-image: url(../../public/img/lineOne.svg);
   background-repeat: no-repeat;
   margin: 4rem;
+  z-index: 55;
   h1 {
     text-align: center;
   }
+}
+
+.index_portada {
+  background-color: $primary;
 }

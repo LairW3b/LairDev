@@ -21,6 +21,7 @@
 
   .links {
     position: absolute;
+    display: hide;
     top: 20rem;
     left: -190rem;
     right: 0;
@@ -28,6 +29,7 @@
     margin-right: auto;
     text-align: center;
     transition: all .4s ease;
+    z-index: -30;
   }
 }
 
@@ -35,6 +37,7 @@
   display: block;
   top: 22%;
   left: -12rem;
+  z-index: 50;
   @media (min-width: 650px){
     left: -40rem;
   }

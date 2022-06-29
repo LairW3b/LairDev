@@ -5,11 +5,19 @@ import style from '../styles/pages/Index.module.scss'
 export default function Home() {
   return (
     <Layout>
-      <div className={style.bg}>
-        
-        <h1 className="title">Lair Rico</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, officia delectus, ipsam accusantium cupiditate sit nisi fuga cumque, commodi cum perspiciatis ullam eaque voluptates quis rerum qui at quas aperiam!</p>
-      </div>
+      <main className={style.index_content}>
+
+        <div className={style.index_portada}>
+          <Image 
+            layout='responsive' 
+            width={190} 
+            height={40} 
+            src='/img/circles.svg'
+          />
+          <h3 className="title">Fronted developer, JavaScript, ReactJs</h3>
+          <h3 className='title'>Pasión por el desarrollo web</h3>
+        </div>
+      </main>
     </Layout>
   )
 }
