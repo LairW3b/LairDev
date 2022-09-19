@@ -1,0 +1,13 @@
+.header_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 8rem;
+  margin: auto;
+  margin-top: 1.8rem;
+  padding: 2rem;
+  background-color: var(--dark);
+  box-shadow: 1rem 1rem 2.5rem rgba(22, 21, 21, 0.847),
+    -1rem -1rem 2rem rgba(126, 126, 126, 0.21);
+  border-radius: 5rem;
+}

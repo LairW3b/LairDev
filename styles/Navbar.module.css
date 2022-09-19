@@ -1,0 +1,80 @@
+.nav {
+  position: absolute;
+  top: -70rem;
+  left: -200rem;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  transition: all .5s ease;
+  z-index: 2;
+}
+
+.nav a {
+  color: var(--gray);
+  text-decoration: none;
+  margin: 1rem;
+  font-size: 2.3rem;
+  display: block;
+}
+
+.nav a:hover {
+  font-size: 3rem;
+  color: var(--secondary);
+  border-radius: 0 .4rem;
+  padding: .3rem;
+  transition: all .4s ease;
+}
+
+
+
+
+.active {
+  width: 100%;
+  display: block;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+
+.bg_div {
+  background-color: rgba(26, 24, 24, 0.918);
+  position: absolute;
+  top: -80rem;
+  left: -100rem;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  border-bottom: .5rem solid var(--primary);
+  transition: all .6s ease;
+}
+
+.active_burger {
+  border-radius: 0 0 80% 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media(min-width: 768px) {
+  .burger {
+    display: none;
+  }
+}
+
+@media(min-width: 768px) {
+  .nav {
+    position: initial;
+    margin: 0;
+  }
+
+  .nav a {
+    display: inline;
+  }
+}

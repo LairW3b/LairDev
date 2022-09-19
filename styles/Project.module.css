@@ -1,0 +1,32 @@
+.project_card {
+  max-width: 34rem;
+  padding: 1.5rem;
+  box-shadow:
+     1rem  1rem 2rem rgba(22, 21, 21, 0.904),
+    -1rem -1rem 2rem rgba(126, 126, 126, 0.21);
+  border-radius: 2rem;
+  background-color: var(--dark);
+  margin: 1.5rem;
+}
+
+.project_card h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.project_des {
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+
+
+.project_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+  height: 4rem;
+  margin: auto;
+}
+

@@ -1,0 +1,36 @@
+
+.about_content h2 {
+  margin: 1.5rem;
+  text-align: center;
+}
+
+@media (min-width: 900px){
+  .about_content_text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.about_img {
+  margin: auto;
+  width: 80%;
+}
+
+.about_parrafo {
+  margin: 2rem;
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+  .about_parrafo {
+    text-align: justify;
+  }
+}
+
+.about_cita {
+  font-size: 1.5rem;
+  /* padding: 2rem; */
+  margin: 3rem;
+  text-align: center;
+}
+
