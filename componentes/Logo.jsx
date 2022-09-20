@@ -7,7 +7,7 @@ const Logo = () => {
   return (
     <>
       {/* <Link href="/"> */}
-      <div className={style.logo_header}>
+      <div  className={style.logo_header}>
         <div className={style.logo_header_img}>
           <Image
             src='/img/circles.svg'
@@ -16,7 +16,7 @@ const Logo = () => {
             alt='Logo lairdev'
           />
         </div>
-        <h2 className={style.logo_text}>
+        <h2 id='#inicio' className={style.logo_text}>
           LairDev
         </h2>
       </div>

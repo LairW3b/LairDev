@@ -1,6 +1,13 @@
 import style from '../styles/Portada.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLinkedin,
+  faSquareWhatsapp,
+  faSquareFacebook
+} from "@fortawesome/free-brands-svg-icons";
+import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 const Portada = () => {
   return (
@@ -33,6 +40,30 @@ const Portada = () => {
           <br />
           Construyendo nuevas habilidades todos los días.
         </p>
+
+        <div className={style.portada_icons}>
+          <a href="https://www.linkedin.com/in/lairdev/"
+            target='_blanck'>
+            <FontAwesomeIcon
+              icon={faLinkedin}
+            />
+          </a>
+          <a 
+            href="https://www.facebook.com/LairDev/"
+            target='_blanck'
+          >
+            <FontAwesomeIcon
+              icon={faSquareFacebook}
+            />
+          </a>
+          <a
+            href="mailto:lair.w4b@gmail.com"
+            target='_blanck'>
+            <FontAwesomeIcon
+              icon={faSquareEnvelope}
+            />
+          </a>
+        </div>
 
       </div>
 

@@ -1,7 +1,9 @@
 import style from '../styles/Projects.module.css'
-import Project from './Project'
+import Pokeapp from './Apppoke'
+import Clinica from './Clinica';
+import Criptos from './Criptos';
 
-const Proyectos = ({ projects }) => {
+const Proyectos = () => {
   return (
     <main
       className={`figure_background 
@@ -18,12 +20,9 @@ const Proyectos = ({ projects }) => {
       </div>
 
       <div className={style.portafolio_projects}>
-        {projects.data.map(project => (
-          <Project
-            key={project.id}
-            project={project}
-          />
-        ))}
+          <Pokeapp />
+          <Criptos />
+          <Clinica />
       </div>
 
       <hr className='hr'/>

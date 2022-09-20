@@ -5,8 +5,9 @@ import Certificados from "../componentes/Certificados";
 import Projects from "../componentes/Projects";
 import About from "../componentes/About";
 import Portada from "../componentes/Portada";
+import Link from "next/link";
 
-export default function Home({ projects }) {
+export default function Home() {
 
   // console.log(projects)
   return (
@@ -18,22 +19,27 @@ export default function Home({ projects }) {
         <Portada />
         <Skills />
         <Certificados />
-        <Projects projects={projects} />
-        <About />
-        
+        <Projects />
+
+        {/* <div className={style.index_return}>
+          <Link href='#inicio'>
+            ▲
+          </Link>
+        </div> */}
+
       </main>
     </Layout>
   )
 }
 
-export async function getStaticProps() {
-  const url = `${process.env.API_URL}/api/proyects/?populate=*`;
-  const resp = await fetch(url);
-  const projects = await resp.json();
+// export async function getStaticProps() {
+//   const url = `${process.env.API_URL}/api/proyects/?populate=*`;
+//   const resp = await fetch(url);
+//   const projects = await resp.json();
 
-  return {
-    props: {
-      projects
-    }
-  }
-}
+//   return {
+//     props: {
+//       projects
+//     }
+//   }
+// }
