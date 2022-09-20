@@ -85,7 +85,7 @@ const Skills = () => {
           <li>Adaptación al cambio</li>
         </ul>
         <div className={`btn_style a ${style.skill_cv}`}>
-          <a href="#">Descargar CV</a>
+          <a href="https://drive.google.com/file/d/14f2B76DqsxwqgrVuOiKaIvXi8jAeg5zg/view?usp=sharing" target="_blanck">Descargar CV</a>
         </div>
       </div>
 

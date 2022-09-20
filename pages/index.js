@@ -4,6 +4,8 @@ import style from '../styles/Index.module.css';
 import Certificados from "../componentes/Certificados";
 import Projects from "../componentes/Projects";
 import Portada from "../componentes/Portada";
+import About from "../componentes/About"
+import Link from "next/link";
 
 export default function Home() {
 
@@ -17,12 +19,13 @@ export default function Home() {
         <Skills />
         <Certificados />
         <Projects />
+        <About />
 
-        {/* <div className={style.index_return}>
-          <Link href='#inicio'>
+        <div className={style.index_return}>
+          <Link href='#'>
             ▲
           </Link>
-        </div> */}
+        </div>
 
       </main>
     </Layout>
