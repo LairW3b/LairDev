@@ -21,12 +21,12 @@ export default function Home() {
         <Projects />
         <About />
 
-        <div className={style.index_return}>
+        {/* <div className={style.index_return}>
           <Link href='#'>
             ▲
           </Link>
         </div>
-
+ */}
       </main>
     </Layout>
   )

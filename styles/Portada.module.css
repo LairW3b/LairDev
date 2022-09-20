@@ -1,5 +1,4 @@
 .inicio_portada {
-  /* background-color: #547e8834; */
   padding: 1rem;
   margin-top: 2rem; 
   text-align: center;
@@ -35,13 +34,6 @@
 
 .portada_link:hover {
   color: var(--primary);
-}
-
-.portada_text {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  display: grid;
 }
 
 .portada_p {
