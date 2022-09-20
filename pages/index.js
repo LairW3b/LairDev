@@ -3,16 +3,13 @@ import Skills from "../componentes/Skills";
 import style from '../styles/Index.module.css';
 import Certificados from "../componentes/Certificados";
 import Projects from "../componentes/Projects";
-import About from "../componentes/About";
 import Portada from "../componentes/Portada";
-import Link from "next/link";
 
 export default function Home() {
 
-  // console.log(projects)
   return (
     <Layout
-      pagina={'Inicio'}
+      pagina='LairDev'
     >
       <main className={`contenedor ${style.content_index}`}>
 

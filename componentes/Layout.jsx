@@ -2,12 +2,12 @@ import Head from "next/head"
 import Footer from "./Footer"
 import Header from "./Header"
 
-const Layout = ({children, pagina}) => {
+const Layout = ({children}) => {
   return (
     <div>
       
       <Head>
-        <title>LairDev - {pagina}</title>
+        <title>LairDev</title>
       </Head>
 
       <Header />

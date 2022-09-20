@@ -6,10 +6,10 @@ import {
   faCss3Alt,
   faJs,
   faJava,
-  faReact,
-  faAngular,
-  faConnectdevelop,
-  faCodepen
+  faReact
+  // faAngular,
+  // faConnectdevelop,
+  // faCodepen
 } from "@fortawesome/free-brands-svg-icons";
 
 
