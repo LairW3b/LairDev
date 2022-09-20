@@ -15,12 +15,12 @@ const About = () => {
             layout='responsive'
             width={40}
             height={30}
-            src='/img/jsAbout.png'
+            src='/img/jsAbout.webp'
           />
         </div>
 
         <p className={style.about_parrafo}>
-          Hola, un gusto que visites mi sitio web, mi nombre es Lair, estudie Tecnologías de la Información y Comunicación en la Universidad Tecnológica de Puebla, mi curiosidad y ganas de aprender me han llevado por distintos caminos y a vivir distintas experiencias, siendo el internet mi mejor maestro y el ordenador mi mejor herramienta, me he enfocado en el Desarrollo Web ya que encontré en él un reto, una pasión y mi manera de poner mi granito de arena a este maravilloso mundo del internet, que tanto me ha enseñado. Me considero una persona autodidacta, curiosa, respetuosa, responsable, agradecida, con interés de seguir aprendiendo y compartiendo lo que sé.
+          Hola, un gusto que visites mi sitio web, mi nombre es Lair, curse mis estudios en  la Universidad Tecnológica de Puebla me gradue como TSU en Tecnologías de la Información y Comunicación, mi curiosidad y ganas de aprender me han llevado por distintos caminos y a vivir distintas experiencias, siendo el internet mi mejor maestro y el ordenador mi mejor herramienta, me he enfocado en el Desarrollo Web ya que encontré en él un reto y mi manera de poner mi granito de arena a este maravilloso mundo del internet. Me considero una persona autodidacta, curiosa, respetuosa, responsable, agradecida, con interés de seguir aprendiendo y compartiendo lo que sé.
         </p>
       </div>
 

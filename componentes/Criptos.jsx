@@ -11,7 +11,7 @@ const  Criptos= () => {
         layout='responsive'
         width={30}
         height={20}
-        src="/img/criptos.png"
+        src="/img/criptos.webp"
         alt={`Imagen proyecto`}
       />
       <p className={style.project_des}>

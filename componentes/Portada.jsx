@@ -4,7 +4,6 @@ import Image from 'next/image'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
-  faSquareWhatsapp,
   faSquareFacebook
 } from "@fortawesome/free-brands-svg-icons";
 import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -18,7 +17,8 @@ const Portada = () => {
           <Image
             layout="responsive"
             width={8} height={8}
-            src='/img/lair.jpg'
+            src='/img/iio2.jpg'
+
             className={style.portada_img}
           />
         </div>

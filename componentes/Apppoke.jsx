@@ -11,7 +11,7 @@ const Apppoke = () => {
         layout='responsive'
         width={30}
         height={20}
-        src="/img/pokeapp.png"
+        src="/img/pokeapp.webp"
         alt={`portada pokeapp harizard volando`}
       />
       <p className={style.project_des}>

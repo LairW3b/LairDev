@@ -11,7 +11,7 @@ const  Clinica = () => {
         layout='responsive'
         width={30}
         height={20}
-        src="/img/clinica.png"
+        src="/img/clinica.webp"
         alt={`Imagen proyecto`}
       />
       <p className={style.project_des}>
