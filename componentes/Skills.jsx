@@ -64,7 +64,7 @@ const Skills = () => {
           <p>React</p>
         </div>
 
-        <div className={style.skill_icon}>
+        {/* <div className={style.skill_icon}>
           <div className={style.icon_fondo}>
             <FontAwesomeIcon
               icon={faJava}
@@ -72,7 +72,7 @@ const Skills = () => {
             />
           </div>
           <p>Java</p>
-        </div>
+        </div> */}
 
       </div> {/*fin skill list*/}
 

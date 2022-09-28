@@ -18,7 +18,7 @@ const Portada = () => {
             layout="responsive"
             width={8} height={8}
             src='/img/iio2.webp'
-
+            alt='foto de perfil'
             className={style.portada_img}
           />
         </div>
