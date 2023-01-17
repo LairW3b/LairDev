@@ -12,7 +12,7 @@ const Apppoke = () => {
         width={30}
         height={20}
         src="/img/pokeapp.webp"
-        alt={`portada pokeapp harizard volando`}
+        alt={`portada pokeapp charizard volando`}
       />
       <p className={style.project_des}>
         Divertida app diseñada con <strong>Figma</strong> y 
@@ -23,7 +23,7 @@ const Apppoke = () => {
       </p>
       <div className={`btn_style ${style.project_btn}`}>
         <a 
-          href="https://dazzling-kitsune-06ced5.netlify.app/" 
+          href="https://dancing-lily-67eea8.netlify.app" 
           target='_blank'>
             Conoce el Proyecto
         </a>

@@ -12,6 +12,13 @@
   }
 }
 
+@media (min-width: 1550px) {
+  .inicio_portada {
+    padding: 1rem 30rem;
+    margin: 5rem;
+  }
+}
+
 .portada_imagen {
   width: 25rem;
   margin: auto;

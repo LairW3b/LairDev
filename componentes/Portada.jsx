@@ -32,8 +32,7 @@ const Portada = () => {
       </div>
 
       <div className={style.portada_text}>
-
-        <p >
+        <p>
           <span className={style.portada_p}>
             Desarrollador Frontend, Javascript y React.
           </span>
@@ -57,16 +56,14 @@ const Portada = () => {
             />
           </a>
           <a
-            href="mailto:lair.w4b@gmail.com"
+            href="mailto:lair.w3b@gmail.com"
             target='_blanck'>
             <FontAwesomeIcon
               icon={faSquareEnvelope}
             />
           </a>
         </div>
-
       </div>
-
     </section>
   )
 }
