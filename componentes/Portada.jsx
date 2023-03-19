@@ -12,7 +12,6 @@ const Portada = () => {
   return (
     <section className={style.inicio_portada}>
       <div>
-
         <div className={style.portada_imagen}>
           <Image
             layout="responsive"
@@ -34,7 +33,7 @@ const Portada = () => {
       <div className={style.portada_text}>
         <p>
           <span className={style.portada_p}>
-            Desarrollador Frontend, Javascript y React.
+            Frontend Developer.
           </span>
           <br />
           Construyendo nuevas habilidades todos los días.

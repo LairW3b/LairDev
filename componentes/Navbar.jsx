@@ -17,9 +17,9 @@ const Navbar = () => {
 
   return (
     <>
-      <div className={
-        `${style.nav}
-         ${click ? style.active : ''}   
+      <div className={`
+        ${style.nav}
+        ${click ? style.active : ''}   
       `}>
 
         <Link href="/">

@@ -20,6 +20,7 @@ const Certificados = () => {
             width={50}
             height={50}
             src={'/img/certificate_icon.png'}
+            alt='dibujo de un certificado'
           />
         </div>
 
@@ -28,10 +29,10 @@ const Certificados = () => {
             <li>Responsive Web Dising</li>
           </a>
           <span>expide: freecodecamp</span>
-          <a href="#">
+          {/* <a href="#">
             <li>Algoritmos de JS</li>
           </a>
-          <span>expide: freecodecamp</span>
+          <span>expide: freecodecamp</span> */}
           <a href="#">
             <li>Administracion del tiempo</li>
           </a>

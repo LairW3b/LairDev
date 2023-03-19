@@ -54,7 +54,7 @@ const Skills = () => {
           <p>JS</p>
         </div>
 
-        <div className={style.skill_icon}>
+        {/* <div className={style.skill_icon}>
           <div className={style.icon_fondo}>
             <FontAwesomeIcon
               icon={faReact}
@@ -62,7 +62,7 @@ const Skills = () => {
             />
           </div>
           <p>React</p>
-        </div>
+        </div> */}
 
         {/* <div className={style.skill_icon}>
           <div className={style.icon_fondo}>
