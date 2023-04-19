@@ -22,7 +22,11 @@ const  Criptos= () => {
 
       </p>
       <div className={`btn_style ${style.project_btn}`}>
-        <a href="https://practicacriptomonedas.netlify.app/" target='_blank'>Conoce el Proyecto</a>
+        <a 
+          href="https://practicacriptomonedas.netlify.app/" 
+          target='_blank'
+          rel='noreferrer'
+        >Conoce el Proyecto</a>
       </div>
 
     </div>

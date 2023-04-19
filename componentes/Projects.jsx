@@ -2,6 +2,7 @@ import style from '../styles/Projects.module.css'
 import Pokeapp from './Apppoke'
 import Clinica from './Clinica';
 import Criptos from './Criptos';
+import DemoUno from './DemoUno';
 
 const Proyectos = () => {
   return (
@@ -23,6 +24,7 @@ const Proyectos = () => {
           <Pokeapp />
           <Criptos />
           <Clinica />
+          <DemoUno />
       </div>
 
       <hr className='hr'/>
