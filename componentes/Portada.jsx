@@ -24,7 +24,7 @@ const Portada = () => {
 
         <Link href="#about">
           <div className={style.portada_link}>
-            Acerca de mi...
+            Acerca de mí...
           </div>
         </Link>
 
@@ -33,7 +33,7 @@ const Portada = () => {
       <div className={style.portada_text}>
         <p>
           <span className={style.portada_p}>
-            Frontend Developer.
+            Full Stack Developer.
           </span>
           <br />
           Construyendo nuevas habilidades todos los días.

@@ -60,15 +60,8 @@
   color: #f0db4f;
 }
 
-.icon_react {
-  color: #61dafb;
-}
-
-/* .icon_angular {
-  color: #d4173b;
-} */
-.icon_java {
-  color: #f89820;
+.icon_php {
+  color: #7175AA;
 }
 
 .skill_ul li {
@@ -77,7 +70,6 @@
   background-color: #2965f1a2;
   padding: 0 1rem;
   width: 28rem;
-  /* background-color: #2966f1; */
 }
 
 @media (min-width: 600px) {

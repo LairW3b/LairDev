@@ -4,14 +4,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHtml5,
   faCss3Alt,
-  faJs,
-  faJava,
-  faReact
-  // faAngular,
-  // faConnectdevelop,
-  // faCodepen
+  faJs
 } from "@fortawesome/free-brands-svg-icons";
 
+//import { faPHP } from '@fortawesome/free-solid-svg-icons'
+import { SiPhp } from 'react-icons/si'
 
 const Skills = () => {
   return (
@@ -54,25 +51,12 @@ const Skills = () => {
           <p>JS</p>
         </div>
 
-        {/* <div className={style.skill_icon}>
+        <div className={style.skill_icon}>
           <div className={style.icon_fondo}>
-            <FontAwesomeIcon
-              icon={faReact}
-              className={`${style.icon_react} ${style.icon}`}
-            />
+            <SiPhp className={`${style.icon_php} ${style.icon}`}/>
           </div>
-          <p>React</p>
-        </div> */}
-
-        {/* <div className={style.skill_icon}>
-          <div className={style.icon_fondo}>
-            <FontAwesomeIcon
-              icon={faJava}
-              className={`${style.icon_java} ${style.icon}`}
-            />
-          </div>
-          <p>Java</p>
-        </div> */}
+          <p>PHP</p>
+        </div> 
 
       </div> {/*fin skill list*/}
 
@@ -85,7 +69,8 @@ const Skills = () => {
           <li>Adaptación al cambio</li>
         </ul>
         <div className={`btn_style a ${style.skill_cv}`}>
-          <a href="https://drive.google.com/file/d/14f2B76DqsxwqgrVuOiKaIvXi8jAeg5zg/view?usp=sharing" target="_blanck">Descargar CV</a>
+
+          <a href="https://drive.google.com/file/d/1E6aoxy7d6SwFJKxHJJRMx3sP5J-a2Fsz/view" target="_blanck">Descargar CV</a>
         </div>
       </div>
 
