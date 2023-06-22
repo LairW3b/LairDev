@@ -22,9 +22,9 @@ const Navbar = () => {
         ${click ? style.active : ''}   
       `}>
 
-        <Link href="/">
+        {/*<Link href="/">
           <a onClick={handleOff}>Inicio</a>
-        </Link>
+        </Link>*/}
         <Link href="#proyectos">
           <a onClick={handleOff}>Proyectos</a>
         </Link>
@@ -45,9 +45,7 @@ const Navbar = () => {
         ${click ? style.active_burger : ''}
       `}>
       </div>
-
     </>
   )
 }
-
 export default Navbar

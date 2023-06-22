@@ -5,13 +5,8 @@ import {
   faHtml5,
   faCss3Alt,
   faJs,
-  faJava,
-  faReact
-  // faAngular,
-  // faConnectdevelop,
-  // faCodepen
 } from "@fortawesome/free-brands-svg-icons";
-
+import { SiPhp } from 'react-icons/si';
 
 const Skills = () => {
   return (
@@ -54,6 +49,13 @@ const Skills = () => {
           <p>JS</p>
         </div>
 
+        <div className={style.skill_icon}>
+          <div className={style.icon_fondo}>
+            <SiPhp className={`${style.icon_php} ${style.icon}`} />
+          </div>
+          <p>PHP</p>
+        </div>
+
         {/* <div className={style.skill_icon}>
           <div className={style.icon_fondo}>
             <FontAwesomeIcon
@@ -84,17 +86,17 @@ const Skills = () => {
           <li>Resolución de conflictos</li>
           <li>Adaptación al cambio</li>
         </ul>
-        <div className={`btn_style a ${style.skill_cv}`}>
 
-          <a 
-            href="https://drive.google.com/file/d/1KxCXXLF7LyZIaLWGOWzRodW-mP9nlWuv/view?usp=sharing" 
-            target="_blanck"
-          >
+        <a 
+          href="https://drive.google.com/file/d/1KxCXXLF7LyZIaLWGOWzRodW-mP9nlWuv/view?usp=sharing" 
+          target="_blanck"
+          className={style.skill_a}
+        >
+          <div className={`btn_style a ${style.skill_cv}`}>
             Descargar CV
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
-
     </div>
   )
 }

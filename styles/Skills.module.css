@@ -82,6 +82,11 @@
   }
 }
 
+.skill_a {
+  color: white;
+  text-decoration: none;
+}
+
 .skill_cv {
   width: 18rem;
   margin: auto;
