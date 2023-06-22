@@ -21,13 +21,16 @@ const Apppoke = () => {
         Consulta la pokeapi en el buscador de la app,
         ya sea por nombre o por numero de pokemon.
       </p>
-      <div className={`btn_style ${style.project_btn}`}>
         <a 
           href="https://dancing-lily-67eea8.netlify.app" 
-          target='_blank'>
+          rel="noreferrer"
+          target='_blank'
+          className={style.btn_a}
+        >
+          <div className={`btn_style ${style.project_btn}`}>
             Conoce el Proyecto
+          </div>
         </a>
-      </div>
 
     </div>
   )

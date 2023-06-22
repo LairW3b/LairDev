@@ -1,38 +1,35 @@
 import Image from "next/image";
 import style from "../styles/Project.module.css";
 
-const  Criptos= () => {
-
+const  BienesRaices = () => {
   return (
     <div className={style.project_card}>
 
-      <h2>Criptomonedas</h2>
+      <h2>Bienes Raíces</h2>
       <Image
         layout='responsive'
         width={30}
         height={20}
-        src="/img/criptos.webp"
+        src="/img/bienesraices.png"
         alt={`Imagen proyecto`}
       />
       <p className={style.project_des}>
-        Web App en la que podras consultar el costo de 
-        las principales criptomonedas, esta app esta desarrollada
-        con <strong>ReactJS</strong> framework de <strong>Javascript</strong>.
-        
-
+        Web App que permite agregar propiedades dinamicamente así como usuarios,
+        realizada con: <strong>PHP</strong>, <strong>SQL</strong>, <strong>HTML</strong>,  
+         <strong> CSS</strong> y <strong>Javascript</strong>.
       </p>
       <a 
-        href="https://practicacriptomonedas.netlify.app/" 
+        href="https://www.youtube.com/watch?v=1n2SrVxl65k" 
         target='_blank'
         rel='noreferrer'
         className={style.btn_a}
       >
         <div className={`btn_style ${style.project_btn}`}>
-          Conoce el Proyecto
+          Video Demo
         </div>
       </a>
     </div>
   )
 }
 
-export default Criptos
+export default BienesRaices

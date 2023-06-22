@@ -1,5 +1,6 @@
 import style from '../styles/Projects.module.css'
 import Pokeapp from './Apppoke'
+import BienesRaices from './BienesRaices';
 import Clinica from './Clinica';
 import Criptos from './Criptos';
 import DemoUno from './DemoUno';
@@ -25,6 +26,7 @@ const Proyectos = () => {
           <Criptos />
           <Clinica />
           <DemoUno />
+          <BienesRaices />
       </div>
 
       <hr className='hr'/>

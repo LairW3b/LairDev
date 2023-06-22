@@ -19,7 +19,10 @@
   margin-bottom: 2rem;
 }
 
-
+.btn_a {
+  text-decoration: none;
+  color: white;
+}
 
 .project_btn {
   display: flex;

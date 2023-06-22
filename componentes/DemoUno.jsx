@@ -17,13 +17,16 @@ const DemoUno = () => {
         Landing page con formulario que redirige a whatsapp esta landing page 
         esta desarrollada con <strong>NextJS</strong> framework de <strong>ReactJS</strong>.
       </p>
-      <div className={`btn_style ${style.project_btn}`}>
-        <a 
-          href="https://demo-uno.netlify.app/" 
-          target='_blank'
-          rel='noreferrer'
-        >Conoce el Proyecto</a>
-      </div>
+      <a 
+        href="https://demo-uno.netlify.app/" 
+        target='_blank'
+        rel='noreferrer'
+        className={style.btn_a}
+      >
+        <div className={`btn_style ${style.project_btn}`}>
+          Conoce el Proyecto
+        </div>
+      </a>
     </div>
 
   )
